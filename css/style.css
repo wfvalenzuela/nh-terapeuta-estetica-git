@@ -1,0 +1,43 @@
+  body {
+    background-color: gray;
+  }
+
+  h3 {
+    color: white;
+    background-color: orange;
+  }
+
+  #titulo2 {
+    color: black;
+  }
+
+  H2 {
+    color: lawngreen;
+  }
+
+  .clases-1 {
+    color: yellow;
+  }
+
+  .img-logo {
+    width: 200px;
+  }
+
+  .header-nav {
+    display: inline-block;
+    background-color: greenyellow;
+    width: 100%;
+  }
+
+  .menu-nav {
+    display: inline-block;
+  }
+
+  .menu-nav li {
+    display: inline-block;
+  }
+
+  .menu-nav li a {
+    text-decoration: none;
+    color: black;
+  }
