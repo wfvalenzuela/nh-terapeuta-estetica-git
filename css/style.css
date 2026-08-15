@@ -41,3 +41,21 @@
     text-decoration: none;
     color: black;
   }
+
+  .primer-recuadro {
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid white;
+  }
+
+  .segundo-recuadro {
+    margin: 15px;
+    padding: 15px;
+    border: double 5px orange;
+  }
+
+  .tercer-recuadro {
+    margin: 15px;
+    padding: 15px;
+    border: dotted greenyellow;
+  }
