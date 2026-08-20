@@ -1,0 +1,132 @@
+  body {
+    background-color: gray;
+  }
+
+  h3 {
+    color: white;
+    background-color: orange;
+  }
+
+  #titulo2 {
+    color: black;
+  }
+
+  H2 {
+    color: lawngreen;
+  }
+
+  .clases-1 {
+    color: yellow;
+  }
+
+  .img-logo {
+    width: 200px;
+  }
+
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: greenyellow;
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .menu-nav {
+    display: inline-block;
+  }
+
+  .menu-nav li {
+    display: inline-block;
+  }
+
+  .menu-nav li a {
+    display: flex;
+    color: black;
+    margin: 5px;
+  }
+
+  .header-nav a:hover {
+    color: white;
+  }
+
+  .primer-recuadro {
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid white;
+  }
+
+  .segundo-recuadro {
+    margin: 15px;
+    padding: 15px;
+    border: double 5px orange;
+  }
+
+  .tercer-recuadro {
+    margin: 15px;
+    padding: 15px;
+    border: dotted greenyellow;
+  }
+
+  .elemento {
+    width: 150px;
+    height: 150px;
+  }
+
+  #uno {
+    background-color: red;
+    order: -1;
+  }
+
+  #dos {
+    background-color: blue;
+  }
+
+  #tres {
+    background-color: pink;
+    order: -2;
+  }
+
+  #cuatro {
+    background-color: brown;
+  }
+
+  /*
+  .contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .contenedor {
+    display: flex;
+    justify-content: space;
+  }
+*/
+
+  .info-columnas {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: auto;
+    border: 5px double rgb(233, 129, 129);
+    padding: 10px;
+  }
+
+  .info-columnas img {
+    width: 100%;
+
+  }
+
+  .contenedor-noticias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
