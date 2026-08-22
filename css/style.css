@@ -1,5 +1,5 @@
   body {
-    background-color: gray;
+    background-color: rgb(250, 244, 244);
   }
 
   h3 {
@@ -16,7 +16,7 @@
   }
 
   .clases-1 {
-    color: yellow;
+    color: rgb(7, 7, 7);
   }
 
   .img-logo {
@@ -27,7 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: greenyellow;
+    background: linear-gradient(90deg, rgba(171, 217, 87, 1) 0%, rgba(109, 189, 53, 1) 16%, rgba(104, 253, 45, 1) 100%);
     width: 100%;
   }
 
@@ -49,9 +49,9 @@
     margin: 5px;
   }
 
-  .header-nav a:hover {
-    color: white;
-  }
+  /*.header-nav a:hover {
+    color: black;
+  }*/
 
   .primer-recuadro {
     margin: 15px;
@@ -116,6 +116,7 @@
     height: auto;
     border: 5px double rgb(233, 129, 129);
     padding: 10px;
+    box-shadow: 14px 10px 14px 1px rgba(0, 0, 0, 0.62);
   }
 
   .info-columnas img {
@@ -129,4 +130,15 @@
     gap: 20px;
     justify-content: space-evenly;
     padding: 20px;
+  }
+
+  .footer {
+    padding: 50px;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(180, 58, 115, 1) 0%, rgba(253, 29, 29, 1) 42%, rgba(252, 176, 69, 1) 61%);
+    margin-top: 30px;
+  }
+
+  .menu-nav li a:hover {
+    color: white;
   }
